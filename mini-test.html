@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+  <!-- prevents compatibility view -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- specifies the character encoding for the document --> 
+      <meta charset="utf-8" />
+      <title>Image or Text?</title>
+      <meta name="description" content="A mini quiz by Armagan Tekdoner" />
+      <link rel="icon" type="image/ico" href="http://www.grifare.info/favicon.ico" />
+      <link rel="icon" type="image/x-icon" href="http://www.grifare.info/favicon.ico" />
+      <link rel="stylesheet" type="text/css" href="mini-test.css" />
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script type="text/javascript" src="mini-test.js"></script>
+  </head>
+
+<body>
+  <section>
+  <h1>Can you tell text from image?</h1>  
+  <h2>There may be text-looking images or image-looking texts below.</h2>
+    <form method="post">
+      <fieldset>
+      <p><img src="please-check.svg" alt="" /></p>
+        <ul>
+          <li><input type="checkbox" name="choice1" id="choice1" /><label for="choice1">This sentence is certainly text.</label></li>
+          <li><input type="checkbox" name="choice2" id="choice2" /><label for="choice2">This sentence is certainly text.</label></li>
+          <li><input type="checkbox" name="choice3" id="choice3" /><label for="choice3">This sentence is certainly text.</label></li>
+          <li><input type="checkbox" name="choice4" id="choice4" /><label for="choice4">This sentence is certainly text.</label></li>
+          <li><input type="checkbox" name="choice5" id="choice5" /><label for="choice5">This sentence is certainly text.</label></li>
+          <li><input type="radio" name="radio" id="choice6" /><label for="choice6">All of the above are truly texts.</label></li>
+          <li><input type="radio" name="radio" id="choice7" /><label for="choice7">None of the above is actually text.</label></li>        
+        </ul>    
+        <input type="submit" value="Reveal which is which" />
+        <input type="reset" value="Reset the test" />        
+      </fieldset>      
+    </form>
+  </section>
+  
+  <footer><small>Copyleft (C) 2016 - <script>document.write(year);</script> Armagan Tekdoner | Anyone can use it for any purpose</small></footer>
+</body>
+</html>
